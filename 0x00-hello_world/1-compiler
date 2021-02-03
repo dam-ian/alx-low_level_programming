@@ -1,0 +1,2 @@
+#!/bin/bash
+mv c.c c.o | chmod u+x 
