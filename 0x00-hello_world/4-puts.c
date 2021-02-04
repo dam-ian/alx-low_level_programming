@@ -1,9 +1,13 @@
-/* The following program is to utilize the puts function */
 #include <stdio.h>
-int main()
-{
-        puts("Programming is like building a multilingual puzzle\n");
 
-	getchar();
+/*
+ * main - This function is to print my formatted string
+ *
+ * return - to return the specified int
+ */
+int main(void)
+{
+        puts("\"Programming is like building a multilingual puzzle");
+
 	return (0);
 }

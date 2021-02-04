@@ -1,11 +1,23 @@
-/* This program prints the sizes of various types */
 #include <stdio.h>
-
+/*
+ * main -  This function is to print various sizes of data types
+ * that are in a computer.
+ * 
+ * return - return 0 if succesful
+ */
 int main(void)
 {
-  printf("Size of a char: %lu./n", );
-  printf("Size of an int is: %lu. /n", ) 
-    printf("Size of long int: 4 byte(s)./n",
-	   printf("Size of a long long int: 8 byte(s)/n",)
-	   printf("Size of a float: 4 byte(s)/n")
+	char c;
+	int i;
+	long int il;
+	long long int id;
+	float f;
+
+	printf("Size of a char: %lu byte(s)\n",sizeof(c));
+	printf("Size of an int is: %lu byte(s)\n",sizeof(i)); 
+	printf("Size of long int: %lu byte(s)\n",sizeof(il));
+	printf("Size of a long long int: %lu byte(s)\n",sizeof(id));
+	printf("Size of a float: %lu byte(s)\n",sizeof(f));
+
+	return (0);
 }

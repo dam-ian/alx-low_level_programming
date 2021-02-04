@@ -1,8 +1,12 @@
-/* This program is to utilize printf function */
 #include <stdio.h>
-int main()
+/*
+ * main - To print formatted string
+ *
+ * return - to return specified int if successful
+ */
+int main(void)
 {
-  printf("with proper grammar, but the outcome is piece of art,/n");
+  printf("with proper grammar, but the outcome is piece of art,");
 
   return (0);
 }
