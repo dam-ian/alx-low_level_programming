@@ -1,0 +1,16 @@
+#include <stdio.h>
+/**
+ * main - this program will print the alphabet in
+ * lowercase.
+ *
+ * return - otherwise will return null
+ */
+int main()
+{
+	char c;
+	for (c = 'a';c <= 'z'; c++)
+	{
+		putchar(c);
+	}
+	        return (0);
+}
