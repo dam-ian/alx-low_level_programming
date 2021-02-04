@@ -2,11 +2,14 @@
 #include <time.h>
 #include <stdio.h>
 
-/*
- * main - This function is to print to std out string string
- * result
+/**
+ * main - Function main is to print to std out string string
+ * result of n, - or +.
  *
- * return - returns int 0 if success
+ * Return - value of of n to be returned in main otherwise
+ * 0
+ * Description - main returns the value of n which will
+ * produce random numbers each time.
  */
 int main(void)
 {
