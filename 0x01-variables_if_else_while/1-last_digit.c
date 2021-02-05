@@ -3,12 +3,9 @@
 #include <stdio.h>
 
 /**
- * main - main function will assign a random variable to n
- * each time it is executed or return void.
+ * main - Entry point
  *
- * printf - will print string along variables i and n
- *
- * return - value of i will be printed and return 0 otherwise
+ * Return - Always 0 (Success)
  */
 int main(void)
 {
