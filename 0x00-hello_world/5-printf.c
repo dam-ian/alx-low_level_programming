@@ -1,8 +1,8 @@
 #include <stdio.h>
-/*
- * main - To print formatted string
+/**
+ * main - Entry point
  *
- * return - to return specified int if successful
+ * Return - Always 0 (Success)
  */
 int main(void)
 {
