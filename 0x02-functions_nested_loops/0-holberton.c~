@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+/**
+ * putchar - writes the character c to stdout
+ * char c - the character to print
+ *
+ * return - return 0 on success
+ */
+int putchar(char c)
+{
+	char c = 'Holberton\n';
+
+	putchar (c);
+	return (0);
+}
