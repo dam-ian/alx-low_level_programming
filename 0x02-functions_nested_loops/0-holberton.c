@@ -8,10 +8,10 @@
  * return - putchar function to return value of
  * 0 on success
  */
-int putchar(char c)
+int _putchar(char c)
 {
 	char c = 'Holberton\n';
 
-	putchar (c);
+	_putchar (c);
 	return (0);
 }

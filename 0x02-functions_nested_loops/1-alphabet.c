@@ -1,5 +1,5 @@
 #include <stdio.h>
-#inlcude "header.h"
+#inlcude "holberton.h"
 
 /**
  * main - Entry point for print function/ prints
@@ -17,7 +17,7 @@ int main(void)
 
 	for (ch = 'a' ; ch = 'z' ; ch++ )
 	{
-		putchar(ch);
+		_putchar(ch);
 		print_alphabet();
 	}
 	return (0);
